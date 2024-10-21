@@ -146,15 +146,48 @@ footer {
         margin: 20px; 
     }
 
-    /* Reviews */
-    #reviews {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
+/* Reviews Section */
+#reviews {
+    padding: 20px;
+    background-color: #5F52D9; 
+    text-align: center;
+}
 
-    .review {
-        width: 45%; 
-        margin: 20px;
-    }
+.review {
+    background-color: #C99BD9; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: inline-block;
+    width: 90%; 
+    max-width: 300px; 
+    text-align: left;
+}
+
+
+.review .name {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.review .title {
+    font-size: 1.1em;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.review .rating {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.review .content {
+    font-size: 1em;
+    line-height: 1.5;
 }
