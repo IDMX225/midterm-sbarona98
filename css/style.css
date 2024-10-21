@@ -1,7 +1,19 @@
 /* Styles for Mobile Site */
-
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f0f0f0;
+}
+ header {
+    position: relative;
+ }
 /* Header & Hero */
-
+#hero {
+    background-image: 
+    
+}
 /* Projects */
 
 /* Reviews */
