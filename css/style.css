@@ -17,7 +17,7 @@ header {
 
 h1 {
     font-size: 2.5em;
-    color: white; 
+    color: white;
     margin: 0;
 }
 
@@ -28,4 +28,133 @@ h1 {
     align-items: center;
     background-image: url('img/taylor-swift.jpg');
     background-size: cover;
-    background-position: left; /
+    background-position: left; 
+    height: 100vh;
+    color: white;
+}
+
+.hero-content {
+    background-color: rgba(139, 82, 217, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background-color: #D952C6; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Projects Section */
+#projects {
+    padding: 20px;
+    background-color: #B752D9; 
+    text-align: center;
+}
+
+.project {
+    background-color: #D952C6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: inline-block; 
+    width: 90%; 
+    max-width: 300px; 
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Reviews Section */
+#reviews {
+    padding: 20px;
+    background-color: #5F52D9; 
+    text-align: center;
+}
+
+.review {
+    background-color: #C99BD9; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: inline-block;
+    width: 90%;
+    max-width: 300px; 
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    background-color: #5F52D9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media state for Desktop site */
+@media (min-width: 1000px) {
+    /* Header & Hero */
+    #hero {
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+    .cta-button {
+        font-size: 1.5em;
+        padding: 20px 40px;
+    }
+
+    /* Projects */
+    #projects {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .project {
+        width: 45%; 
+        margin: 20px; 
+    }
+
+    /* Reviews */
+    #reviews {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .review {
+        width: 45%; 
+        margin: 20px;
+    }
+}
