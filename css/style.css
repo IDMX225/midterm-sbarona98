@@ -11,25 +11,111 @@ body {
  }
 /* Header & Hero */
 #hero {
-    background-image: 
-    
-}
-/* Projects */
+    background-image: url('img/taylor-swift.jpg')
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
 
+}
+
+.hero-content {
+    background-color: rgba (139,82,217,0.7)
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+
+}
+h2 {
+    font-size: 2em;
+}
+.cta-button {
+    background-color: #D952C6;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-decoration: none;
+
+    #projects {
+        padding 20px;
+    }
+.project {
+    background-color: white; 
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
 /* Reviews */
+#reviews {
+padding: 20px;
+}
+
+.review {
+    background-color: #C99BD9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba (0,0,0,0.1)
+}
 
 /* Footer */
-
+footer {
+    background-color: #5F52D9;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
 
     /* Header & Hero */
+#hero {
+    height: 80vh;
+}
+h1 {
+    font-size: 3em;
 
+}
+h2 {
+    font-size: 2.5em;
+}
+.cta-button {
+    font-size: 1.5em;
+    padding: 20px 40px;
+}
     /* Projects */
-
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
     /* Reviews */
-
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.name, .title, .rating {
+    font-wright: botld;
+}
     /* Footer */
 
 }
